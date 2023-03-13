@@ -1,0 +1,36 @@
+{
+  "name": "merge-material",
+  "version": "1.0.17",
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@syncfusion/ej2-react-buttons": "^20.4.53",
+    "@uxpin/merge-cli": "3.0.0",
+    "babel-loader": "^9.1.2",
+    "css-loader": "6.7.3",
+    "date-fns": "^2.29.3",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "style-loader": "3.3.1",
+    "svg-url-loader": "^8.0.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --mode development",
+    "uxpin": "npx uxpin-merge --disable-tunneling"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  }
+}
