@@ -7,8 +7,9 @@
   "dependencies": {
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
+    "@syncfusion/ej2": "^21.1.38",
     "@syncfusion/ej2-react-buttons": "^20.4.53",
-    "@uxpin/merge-cli": "3.0.0",
+    "@uxpin/merge-cli": "3.0.1",
     "babel-loader": "^9.1.2",
     "css-loader": "6.7.3",
     "date-fns": "^2.29.3",
